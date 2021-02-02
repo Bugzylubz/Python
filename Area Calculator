@@ -1,0 +1,17 @@
+""" This program is designed to workout the total area of shapes because i'm lazy and can't be arsed to do it myself"""
+print"Loading lazy boy calculator"
+shape_definition = raw_input("Enter C for Circle or T for Triangle: ")
+option = shape_definition
+if shape_definition == "C":
+  radius_def = float(raw_input("Enter Circle Radius"))
+  radius = radius_def
+  area = 3.14159 * radius**2
+  print "Area %f" % area
+elif shape_definition == "T":
+  base = float(raw_input("Enter base: "))
+  height = float(raw_input("Enter height: "))
+  area = 0.5 * base * height
+  print "Area %f" % area 
+else: 
+ print "Invalid Shape"
+print "Finished"
