@@ -1,5 +1,5 @@
-""" This program is designed to workout the total area of shapes because i'm lazy and can't be arsed to do it myself"""
-print"Loading lazy boy calculator"
+""" This program is designed to workout the total area of shapes """
+print"Loading calculator"
 shape_definition = raw_input("Enter C for Circle or T for Triangle: ")
 option = shape_definition
 if shape_definition == "C":
