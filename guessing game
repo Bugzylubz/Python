@@ -1,0 +1,21 @@
+import random
+higher = 30
+answer = random.randint(1, higher)
+print("Enter 0 to quit the game")
+
+print("Please guess a number: ")
+guess = 0
+
+while guess != answer:
+    guess = int(input())
+
+    if guess == answer:
+        print("Well done you guessed it!")
+        break
+    if guess == 0:
+        print("You have quit")
+        break
+    if guess > answer:
+        print("Please guess lower")
+    else:
+        print("Please guess higher")
